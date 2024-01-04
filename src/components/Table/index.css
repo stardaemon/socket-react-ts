@@ -1,0 +1,30 @@
+.animation-background {
+  -webkit-animation: bgcolorchange 1s; /* Chrome, Safari, Opera */ 
+  animation: 1s bgcolorchange;
+}
+
+@keyframes bgcolorchange {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes bgcolorchange {
+  0%   {
+    background: rgb(255, 196, 0);
+  }
+  100% {
+    background: white;
+  }
+}
+
+.blue-icon {
+  color:rgb(52, 105, 203);
+}
+
+.blue-icon:hover {
+  cursor: pointer;
+}
